@@ -1,0 +1,4 @@
+<div class="tree">
+  <input type="text" name="search" placeholder="search" [(ngModel)]="search" (keyup)='keyUp.next($event)'>
+  <app-tree  [nodes]="nodes"></app-tree>
+</div>
